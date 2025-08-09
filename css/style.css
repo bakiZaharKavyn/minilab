@@ -21,10 +21,7 @@ header {
 }
 
 ul {
-    display: flex;
-    text-align: center;
-    margin: 24px;
-    column-gap: 55px;
+    list-style: none;
 }
 
 .wrapper {
@@ -50,6 +47,7 @@ a {
 .flex-between {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .main {
